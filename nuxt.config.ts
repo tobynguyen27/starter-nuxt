@@ -25,7 +25,6 @@ export default defineNuxtConfig({
     '@nuxt/hints',
     '@nuxt/image',
     '@nuxt/scripts',
-    '@nuxtjs/partytown',
     '@pinia/nuxt',
     '@pinia/colada-nuxt',
     '@arkenv/nuxt/module',
@@ -54,7 +53,6 @@ export default defineNuxtConfig({
       cloudflareWebAnalytics: {
         token: '',
         trigger: 'onNuxtReady',
-        partytown: true,
       },
     },
   },
